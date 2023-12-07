@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li
+{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center; /* centers elements vertically */
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav h1 .logo
+{
+    color: skyblue;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero img{
+    width: 60%;
+}
+
+input[type=text],input[type=password],input[type=email],input[type=submit]{
+    padding:10px 20px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin: 10px 0px;
+}
+
+input[type=radio]{
+    border-radius: 50px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+
+#signup,#login
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+}
+input[type=submit]
+{
+    display: block;
+    margin: 0 auto;
+    background-color: skyblue;
+    width: 200px;
+    
+}
+
+input[type=submit]:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+label
+{
+    font-weight: bold;
+}
+
+#error
+{
+    color: red;
+    font-weight: 100;
+
+}
